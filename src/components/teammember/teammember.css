@@ -1,0 +1,12 @@
+.team-member {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    color: #fff;
+  }
+
+  @media (max-width: 768px) {
+    .team-member {
+      padding: 0.5rem;
+    }
+  }

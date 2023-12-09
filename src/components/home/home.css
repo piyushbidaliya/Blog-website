@@ -1,0 +1,139 @@
+.app__header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.app__header-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    margin-right: 5rem;
+}
+
+.app__header-content h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.app__header-content p{
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+
+    color: var(--color-text);
+    margin-top: 1.5rem;
+}
+
+.app__header-content__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+}
+
+.app__header-content__input input{
+    flex: 2;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-size: 20px;
+    line-height: 27px;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    padding: 0 1rem;
+    outline: none;
+    color: #fff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.app__header-content__input button{
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    background: #ff4820;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    padding: 0 1rem;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.app__header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.app__header-image img{
+    width: 150%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+
+@media screen and(max-width:1050px) {
+    .app__header{
+        flex-direction: column;
+    }
+
+    .app__header-content{
+        margin: 0 0 3rem;
+    }
+    
+}
+
+
+@media screen and(max-width:650px) {
+
+    .app__header h1{
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .app__header p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .app__header-content__input input,
+    .app__header-content__input button{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+}
+
+
+@media screen and(max-width:490px) {
+    .app__header h1{
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .app__header p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .app__header-content__input input,
+    .app__header-content__input button{
+        font-size: 12px;
+        line-height: 16px;
+    }
+    
+}

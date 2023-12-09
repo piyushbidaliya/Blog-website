@@ -1,0 +1,39 @@
+
+  
+  /* Header Styles */
+  .header {
+    position: relative;
+  }
+  
+  .header img {
+    width: 100%;
+    height: 70vh;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Admin and Team Section Styles */
+  .admin-section, .team-section {
+    margin: 2rem 0;
+  }
+  
+  
+  /* Responsive Styles (adjust as needed) */
+  @media (max-width: 768px) {
+    .overlay {
+      padding: 1rem;
+    }
+  
+    .team-member {
+      padding: 0.5rem;
+    }
+  }
+  

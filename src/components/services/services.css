@@ -1,0 +1,90 @@
+/* Carousel.css (or add this to your existing CSS file) */
+.recipe_container-big{
+  display: flex;
+  width: 85%;
+  margin: auto;
+}
+  
+.recipe_mainheading{
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.recipe_margin{
+  margin-bottom: 6rem;
+}
+
+  .recipe_container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: auto;
+  }
+
+  .recipe_container-card{
+    display: flex;
+  }
+
+  .recipe_card-image{
+    width: 50%;
+  }
+
+  .recipe_card-image img{
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .recipe_container-heading{
+    width: 50%;
+    padding: 10px;
+  }
+
+  .recipe_container-heading h1, .recipe_container-heading2 h1{
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 20px;
+
+  }
+
+  .recipe-content{
+    font-family: var(--font-family);
+    color: var(--color-text);
+    font-size: 14px;
+
+  }
+
+  .recipe-content-btn{
+    font-family: var(--font-family);
+    color: var(--color-subtext);
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+  }
+
+
+
+
+
+  .recipe_container-card2{
+    display: flex;
+  }
+
+  .recipe_card-image2{
+    width: 50%;
+    order: 2;
+  }
+
+  .recipe_card-image2 img{
+    width: 100%;
+    min-height: 100%;
+  }
+
+  .recipe_container-heading2{
+    width: 50%;
+    padding: 10px;
+  }
